@@ -1,0 +1,4 @@
+name: djangoML
+channels:
+  - defaults
+prefix: /home/mike/miniconda3/envs/djangoML
