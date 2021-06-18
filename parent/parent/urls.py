@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from classifier.views import ImageListView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    
 ]
