@@ -15,10 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from classifier.views import hello
+from classifier.views import ImageListView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('hello_test/',hello, name='hello'),
+    path('hello_test/', ImageListView.as_view(), name='hello'),
 
-]
+    
+
