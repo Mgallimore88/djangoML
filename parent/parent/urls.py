@@ -19,5 +19,7 @@ from classifier.views import ImageListView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('hello_test/', ImageListView.as_view(), name='hello'),
+
     
-]
+
